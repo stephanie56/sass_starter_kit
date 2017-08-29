@@ -23,14 +23,14 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
-    compress: false,
+    compress: true,
     port: 3001,
     stats: 'errors-only',
     open: true
   },
   plugins: [
     new ExtractTextPlugin({
-      filename: 'style.css',
+      filename: 'app.css',
       allChunks: true
     })
   ]
