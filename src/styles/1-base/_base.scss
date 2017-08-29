@@ -1,0 +1,19 @@
+$font-stack: Helvetica, 'Montserrat', sans-serif;
+$main-pink: #F30C74;
+$main-orange: #F28A4B;
+$main-blue: #4598D3;
+
+body {
+  font-family: $font-stack;
+}
+
+h1 {
+  color: $main-orange;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+img {
+    width: 100%;
+}
