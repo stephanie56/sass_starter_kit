@@ -1,9 +1,4 @@
-$font-stack: Helvetica, sans-serif;
-$main-pink: #F30C74;
-$main-orange: #F28A4B;
-$main-blue: #4598D3;
-
-h1 {
-  color: $main-pink;
-  font-family: $font-stack;
-}
+@import "0-plugins/_plugins-dir";
+@import "1-base/_base-dir";
+@import "2-layouts/_layouts-dir";
+@import "3-modules/_modules-dir";
