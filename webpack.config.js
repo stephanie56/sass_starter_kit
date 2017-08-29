@@ -16,7 +16,8 @@ module.exports = {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: ['css-loader', 'sass-loader']
+          use: ['css-loader', 'sass-loader'],
+          publicPath: '/dist'
         })
       }
     ]
@@ -26,7 +27,7 @@ module.exports = {
     compress: true,
     port: 3001,
     stats: 'errors-only',
-    open: true
+    open: true,
   },
   plugins: [
     new ExtractTextPlugin({
